@@ -6,6 +6,6 @@
 		"lint:fix": "npm run lint -- --fix"
 	},
 	"devDependencies": {
-		"markdownlint-cli": "^0.30.0"
+		"markdownlint-cli": "0.30.0"
 	}
 }
