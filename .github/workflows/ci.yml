@@ -21,6 +21,12 @@ jobs:
             toolchain: stable
             override: true
 
+      - name: Cache Rust tools
+        uses: actions/cache@v2
+        with:
+          key: ${{ github.workspace }}-${{ runner.os }}-rust-tools
+          path: ${{ github.workspace }}/.cargo/bin
+
       - name: Install mdBook
         uses: actions-rs/cargo@v1
         with:
