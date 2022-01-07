@@ -9,5 +9,9 @@
 	"MD004": {
 		"style": "consistent"
 	},
+	"MD010": {
+		"code_blocks": false
+	},
+	"MD013": false,
 	"MD040": true
 }

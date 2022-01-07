@@ -4,13 +4,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a tortor sed nul
 
 Suspendisse sed tortor quis ex tincidunt ornare sed at dui. Etiam et porta leo. Duis suscipit tempus eros, eget congue massa sagittis a. Praesent vehicula, est ut feugiat fermentum, mauris ex mollis erat, vel vulputate neque metus et justo. Donec ac elit nec est cursus ullamcorper. Nullam dignissim ipsum et hendrerit tincidunt. Morbi vitae tellus in velit interdum imperdiet et nec felis.
 
-
- * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
- * Sed blandit lorem vel mauris viverra faucibus.
- * Sed vel urna faucibus, condimentum ex lacinia, malesuada nunc.
- * Mauris rutrum nunc ut metus semper sagittis.
- * Pellentesque eget sem vitae leo pretium iaculis eu in massa.
- * Mauris pulvinar nunc a volutpat porta.
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+* Sed blandit lorem vel mauris viverra faucibus.
+* Sed vel urna faucibus, condimentum ex lacinia, malesuada nunc.
+* Mauris rutrum nunc ut metus semper sagittis.
+* Pellentesque eget sem vitae leo pretium iaculis eu in massa.
+* Mauris pulvinar nunc a volutpat porta.
 
 ![A snowy mountain in Moena, Italy. Above the mountain is a sky filled with stars, fading from pink and purple to dark blue. Below the mountains, a forest surrounds.](https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80)
 
