@@ -24,8 +24,11 @@ jobs:
       - name: Cache Rust tools
         uses: actions/cache@v2
         with:
-          key: ${{ github.workspace }}-${{ runner.os }}-rust-tools
-          path: ${{ github.workspace }}/.cargo/bin
+          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            target
 
       - name: Install mdBook
         uses: actions-rs/cargo@v1
