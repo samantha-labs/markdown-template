@@ -1,14 +1,14 @@
 name: CI
 
+env:
+  MAIN_BRANCH: main
+
 on:
   push:
     branches:
-      - 'master'
+      - $MAIN_BRANCH
       - '!gh-pages'
   pull_request:
-
-env:
-  MAIN_BRANCH: main
 
 jobs:
   build:
