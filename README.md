@@ -15,7 +15,7 @@ Make a change, commit, push, and see the updates live on your GitHub Pages site!
 
 ## Configure
  - Configure mdBook: [`book.toml`](./book.toml) and [`SUMMARY.md`](./src/SUMMARY.md) ([official docs](https://rust-lang.github.io/mdBook/format/configuration/index.html))
- - Configure markdownlint: [`markdownlint.jsonc`](./markdownlint.jsonc) ([official docs](https://github.com/DavidAnson/markdownlint#optionsconfig), [example config file](https://github.com/DavidAnson/markdownlint/blob/main/schema/.markdownlint.jsonc))
+ - Configure markdownlint: [`.markdownlint.json`](./.markdownlint.json) ([official docs](https://github.com/DavidAnson/markdownlint#optionsconfig), [example config file](https://github.com/DavidAnson/markdownlint/blob/main/schema/.markdownlint.jsonc))
 
 ## Build locally
 ```bash
