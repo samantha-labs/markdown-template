@@ -5,9 +5,7 @@ env:
 
 on:
   push:
-    branches:
-      - $MAIN_BRANCH
-      - '!gh-pages'
+    branches: [ main, !gh-pages ]
   pull_request:
 
 jobs:
