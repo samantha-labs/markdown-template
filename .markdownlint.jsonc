@@ -1,0 +1,13 @@
+{
+	"MD001": true,
+	"MD002": {
+		"level": 1
+	},
+	"MD003": {
+		"style": "atx"
+	},
+	"MD004": {
+		"style": "consistent"
+	},
+	"MD040": true
+}
