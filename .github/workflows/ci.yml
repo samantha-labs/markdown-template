@@ -15,12 +15,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install rust-toolchain (Stable)
-        uses: actions-rs/toolchain@v1
-        with:
-            toolchain: stable
-            override: true
-
       - name: Cache Rust tools
         id: cache-rust-tools
         uses: actions/cache@v2
@@ -30,6 +24,12 @@ jobs:
             ~/.cargo/registry
             ~/.cargo/git
             target
+
+      - name: Install rust-toolchain (Stable)
+        uses: actions-rs/toolchain@v1
+        with:
+            toolchain: stable
+            override: true
 
       - name: Install mdBook
         uses: actions-rs/cargo@v1
