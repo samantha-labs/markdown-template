@@ -10,9 +10,12 @@ Make a change, commit, push, and see the updates live on your GitHub Pages site!
  - [x] *Linting markdown files* with [`markdownlint`](https://github.com/DavidAnson/markdownlint) and [`markdownlint-cli`](https://github.com/igorshubovych/markdownlint-cli)
  - [x] *Auto-generated documentation* using [mdBook](https://github.com/rust-lang/mdBook) and [GitHub Pages](https://docs.github.com/en/pages)
  - [x] *Continuous deployment* with [GitHub Actions](https://github.com/features/actions)
+   
  - [x] *Dependency updates* with [Renovate](https://github.com/marketplace/renovate)
- - [ ] *Remote development* with [GitHub Codespaces](https://github.com/features/codespaces) (🚧 WIP)
 
+### 🚧 Roadmap
+ - [ ] cache pre-compiled binaries of Rust tools (like rustc, mdBook) for faster builds
+ - [ ] *Remote development* with [GitHub Codespaces](https://github.com/features/codespaces)
 ## Configure
  - Configure mdBook: [`book.toml`](./book.toml) and [`SUMMARY.md`](./src/SUMMARY.md) ([official docs](https://rust-lang.github.io/mdBook/format/configuration/index.html))
  - Configure markdownlint: [`.markdownlint.json`](./.markdownlint.json) ([official docs](https://github.com/DavidAnson/markdownlint#optionsconfig), [example config file](https://github.com/DavidAnson/markdownlint/blob/main/schema/.markdownlint.jsonc))
