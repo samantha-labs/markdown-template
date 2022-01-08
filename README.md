@@ -1,6 +1,6 @@
 # 📖 Markdown Template
 [![CI](https://github.com/samantha-labs/repo-template-markdown/actions/workflows/ci.yml/badge.svg)](https://github.com/samantha-labs/repo-template-markdown/actions/workflows/ci.yml)
-![GitHub deployments](https://img.shields.io/github/deployments/samantha-labs/repo-template-markdown/gh-pages)
+![GitHub deployments](https://img.shields.io/github/deployments/samantha-labs/repo-template-markdown/github-pages?label=docs)
 
 A repository template that builds a static documentation site using Markdown and mdBook.
 
