@@ -3,7 +3,7 @@
 	"scripts": {
 		"build": "mdbook build",
 		"start": "mdbook serve",
-		"deploy": "gh-pages -d ./book",
+		"deploy": "gh-pages -d ./book/html",
 		"lint": "markdownlint . --ignore node_modules",
 		"lint:fix": "npm run lint -- --fix"
 	},
