@@ -20,17 +20,15 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install rust-toolchain (Stable)
-        uses: actions-rs/toolchain@v1
+      - name: Setup mdBook
+        uses: peaceiris/actions-mdbook@v1
         with:
-            toolchain: stable
-            override: true
+          mdbook-version: 'latest'
 
-      - name: Install mdBook
-        uses: actions-rs/cargo@v1
+      - name: Setup mdbook-katex
+        uses: magicgh/mdbook-katex-action@v1
         with:
-          command: install
-          args: mdbook
+          version: 'latest'
 
       - name: Install Node.js
         uses: actions/setup-node@v2

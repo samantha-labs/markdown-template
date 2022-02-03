@@ -2,8 +2,9 @@
 	"private": true,
 	"scripts": {
 		"build": "mdbook build",
+		"start": "mdbook serve",
 		"deploy": "gh-pages -d ./book",
-		"lint": "markdownlint src --ignore node_modules",
+		"lint": "markdownlint . --ignore node_modules",
 		"lint:fix": "npm run lint -- --fix"
 	},
 	"dependencies": {

@@ -29,3 +29,18 @@ fn main() {
 | ---------- | --------- |
 | Aaron      | Swartz    |
 | Joan       | Clarke    |
+
+## $\KaTeX$ Example
+
+The below formula is the definition of a Fourier transform (FT) in $\KaTeX$.
+
+Given the input:
+
+```tex
+\stackrel{\wedge}{f}(\xi) = \int^{\infty}_{-\infty} f(x)e^{2\pi ix\xi}dx, \forall\xi\in\Reals
+```
+
+Will output:
+$$
+\stackrel{\wedge}{f}(\xi) = \int^{\infty}_{-\infty} f(x)e^{2\pi ix\xi}dx, \forall\xi\in\Reals
+$$

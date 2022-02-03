@@ -13,3 +13,7 @@ edition = "2021"
 
 [output.html]
 git-repository-url = "https://github.com/samantha-labs/repo-template-markdown"
+
+[output.katex]
+[preprocessor.katex]
+trust = true
